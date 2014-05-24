@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UIButton *asButton = [UIButton ASButtonWithFrame:CGRectMake(60, 100, 200, 44) title:@"AppStore Style Button"];
+    UIButton *asButton = [UIButton ASButtonWithFrame:CGRectMake(60, 100, 200, 44) title:@"你好"];
     [self.view addSubview:asButton];
 }
 

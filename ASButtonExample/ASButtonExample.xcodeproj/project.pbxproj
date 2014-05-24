@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC18E6E118D07B8C00A17129 /* ASButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC18E6E018D07B8C00A17129 /* ASButton.m */; };
 		CC2CF2CB18CDEABF0047EC16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2CF2CA18CDEABF0047EC16 /* Foundation.framework */; };
 		CC2CF2CD18CDEABF0047EC16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2CF2CC18CDEABF0047EC16 /* CoreGraphics.framework */; };
 		CC2CF2CF18CDEABF0047EC16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2CF2CE18CDEABF0047EC16 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC18E6DF18D07B8C00A17129 /* ASButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASButton.h; sourceTree = "<group>"; };
+		CC18E6E018D07B8C00A17129 /* ASButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASButton.m; sourceTree = "<group>"; };
 		CC2CF2C718CDEABF0047EC16 /* ASButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2CF2CA18CDEABF0047EC16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC2CF2CC18CDEABF0047EC16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -162,6 +165,8 @@
 		CC2CF2FF18CDEADE0047EC16 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				CC18E6DF18D07B8C00A17129 /* ASButton.h */,
+				CC18E6E018D07B8C00A17129 /* ASButton.m */,
 				CC2CF30018CDEB1C0047EC16 /* UIButton+AppStore.h */,
 				CC2CF30118CDEB1C0047EC16 /* UIButton+AppStore.m */,
 				CC2CF30318CDEB2D0047EC16 /* UIImage+Extension.h */,
@@ -269,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC2CF30518CDEB2D0047EC16 /* UIImage+Extension.m in Sources */,
+				CC18E6E118D07B8C00A17129 /* ASButton.m in Sources */,
 				CC2CF2DB18CDEABF0047EC16 /* ASAppDelegate.m in Sources */,
 				CC2CF30218CDEB1C0047EC16 /* UIButton+AppStore.m in Sources */,
 				CC2CF2E118CDEABF0047EC16 /* ASViewController.m in Sources */,
@@ -483,6 +489,7 @@
 				CC2CF2FB18CDEABF0047EC16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC2CF2FC18CDEABF0047EC16 /* Build configuration list for PBXNativeTarget "ASButtonExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +498,7 @@
 				CC2CF2FE18CDEABF0047EC16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
